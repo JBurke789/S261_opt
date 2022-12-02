@@ -54,14 +54,13 @@ def plot_scatter(yval,error):
 '''
 plot_scatter(values[:,3],values[:,4])
 plot_scatter(values[:,5],values[:,6])
-plot_scatter(values[:,7],values[:,8])
 plot_scatter(values[:,9],values[:,10])
 plot_scatter(values[:,11],values[:,12])
 plot_scatter(values[:,13],values[:,14])
 plot_scatter(values[:,15],values[:,16])
 plot_scatter(values[:,17],values[:,18])
 plot_scatter(values[:,19],values[:,20])
-plot_scatter(values[:,21],values[:,22])
+plot_scatter(values[:,21],values[:,22]) #
 '''
 
 min_mean = np.mean(scaled_exoflux[0:30])
@@ -74,3 +73,5 @@ mag_dif = -2.5 * math.log10(min_mean/max_mean)
 
 radius_ratio = ((max_mean-min_mean)/max_mean)*0.5
 print(radius_ratio)
+
+print('test!')
